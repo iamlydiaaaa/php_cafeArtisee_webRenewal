@@ -1,0 +1,105 @@
+/* 회원가입 약관 */
+
+.container {
+	padding-bottom:10px;
+	text-align:center;
+}
+.container h1 {
+	font-family: "Roboto", sans-serif;
+	font-size:55px;
+	margin-bottom:20px;
+	font-weight:300;
+}
+.container h1>span {
+	color:#1EB7B1;
+}
+.container p {
+	margin-bottom:20px;
+}
+
+#contactForm section {;margin:10px auto 30px;border:1px solid #dbdbdb;position:relative;border-radius:3px 3px 0 0 ;
+-webkit-box-shadow:  0 1px 3px #eee;
+-moz-box-shadow:  0 1px 3px #eee;
+box-shadow: 0 1px 3px #eee;
+}
+#contactForm_chkall{text-align:right}
+#contactForm h2 {text-align:left;padding:15px 20px;border-bottom:1px solid #dbdbdb;background:#f8f8f8}
+#contactForm .agree_text {display:block;padding:20px;width:100%;height:150px;background:#fff;border:0;line-height:1.6em}
+/*#contactForm .contactForm_agree1 {position:absolute;top:0;right:0;;padding:15px}*/
+#contactForm .contactForm_agree2 {padding:10px 0 0;text-align:right}
+#contactForm .contactForm_agree2 label {display:inline-block;margin-right:5px}
+#contactForm .btn_confirm{text-align:center;}
+#contactForm .btn_confirm .btn_submit{height:50px;border-radius:3px;padding:0 40px;font-weight:bold;font-size:1.083em}
+
+#contactForm_form{background:#fff;padding:20px;margin-bottom:20px}
+#contactForm .form_01 div{margin: 0 0 50px}
+
+/* alert Bootstrap */
+#alertOk, #alertErr { display:none; }
+
+.alert {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+.alert-success .alert-link {
+  color: #2b542c;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+.alert-danger .alert-link {
+  color: #843534;
+}
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity .15s linear;
+       -o-transition: opacity .15s linear;
+          transition: opacity .15s linear;
+}
+.fade.in {
+  opacity: 1;
+}
+
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}

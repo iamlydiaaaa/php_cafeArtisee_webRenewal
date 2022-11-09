@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Katibeh&display=swap');
+
+#visual{background-image: url(../img/thestory/thestory-visual.jpg)}
+/*메인페이지*/
+/*sub1*/
+.sub2-1 h2:before {content: ""; display: inline-block; width: 17px;height: 10px; margin: 0 15px 8px 0;
+    background: url(../img/sub2-icon.png) no-repeat 0 0
+}
+.story{margin-bottom: 60px;
+    font-family: 'Katibeh', cursive
+}
+.story>div{width: 400px;height: 400px; float: left; margin-left: 110px;
+    position: relative
+}
+.story>div:before{content:""; display: block; width: 193px;height: 193px;
+    position: absolute;left: -70px;top: 0;
+    background: url(../img/thestory/logo2.png) no-repeat 0 0
+}
+.story h4{margin: 65px 0 50px 70px;
+    font-size: 80px; line-height: 70px
+}
+.story p{font-size: 32px; color: #f39d23; text-align: right}
+.story>img{width: 640px;height: 400px; float: right}
+
+.story-txt{margin-bottom: 100px;
+    text-align: center
+}
+.story-txt:after{content:""; display: block; width: 144px;height: 30px;margin: 100px auto 70px;
+    background: url(../img/thestory/icon1.png) no-repeat 0 0
+}
+.story-txt p{margin-bottom: 15px}
+.story-txt p>strong{font-size: 20px}
+.story-txt a{display: block; font-size: 24px}
+.story-txt a>strong{font-size: 28px}
+
+.name{width: 1144px;height: 495px; padding: 150px 0 0 500px; margin-bottom: 150px;
+    background: url(../img/thestory/thestroy-cake1.jpg) no-repeat 0 0;
+    text-align: center
+}
+.name p:first-child{margin-bottom: 35px}
+
+.illust{height: 534px; margin-bottom: 55px;
+    position: relative
+}
+.illust img{float: left}
+.btn{position: absolute; right: 320px; bottom: 0;
+    text-indent: -9999px
+}
+.btn a{width: 50px;height: 50px; display: block; float: left;
+    position: relative;
+    background-color: #887566
+}
+.btn a:after{content: ""; width: 10px;height: 18px; display: block;
+    position: absolute; left: 20px;top: 16px;
+    background: url(../img/thestory/icon-arrow.png) no-repeat 0 0
+}
+.btn a:hover{background-color:#675547}
+.btn a:nth-child(1){margin-right: 2px}
+.btn a:nth-child(2){transform: rotate(180deg)}
+.illu-r{float: right; width: 280px;height: 230px; margin: 110px 70px 0 0}
+#wrapper .illu-r>p{padding-bottom: 40px;
+    font-size: 80px; line-height: 70px; font-family: 'Katibeh', cursive
+}
+.illu-r>a{font-size: 20px; color: #f39d23}
+
+.illust-txt{width: 1180px;height: 415px; padding: 110px 0 0 90px; margin-bottom: 200px;
+    background: url(../img/thestory/thestory-cake3.jpg) no-repeat 0 0
+}
+.illust-txt p:first-child{margin-bottom: 35px}
+.illust-txt strong{font-size: 22px}
+
+
+/*sub2*/
+.sub2-2 p{line-height: 24px}
+.sub2-2>div{margin-bottom: 150px}
+.sub2-2 h4{font-size: 50px; font-family: 'Katibeh'}
+.sub2-2 p{margin:50px 0 25px;
+    font-size: 22px; color: #f39d23; line-height: 30px
+}
+.sub2-2 p>strong{color: #f39d23}
+.sub2-2 a{display: block}
+.sub2-2 em{font-weight: bold}
+
+.scaa:after{content: ""; display: block;width: 144px;height: 30px; margin: 50px auto; opacity: 0.4;
+    background: url(../img/thestory/icon1.png) no-repeat 0 0
+}
+.scaa>h4{width: 1200px;height: 250px; padding: 70px 145px 0 0;
+    background: url(../img/thestory/coffee1.jpg) no-repeat 0 0;
+    color: #fff; text-align: right
+}
+.scaa>h4>strong{color: #fff; font-size: 60px; font-weight: normal}
+.scaa>div{text-align: center}
+
+.highrank{height: 535px}
+.highrank>h4{width: 650px;float: right; margin-top: 70px}
+.highrank:before{content: ""; display: block;width: 520px;height: 535px; float: left;
+    background: url(../img/thestory/coffee2.jpg) no-repeat 0 0
+}
+.highrank>div{width: 650px;height: 535px; float: right}
+
+.boquete{height: 425px; text-align: right}
+.boquete:before{content: ""; display: block;width: 600px;height: 425px; float: right; margin-bottom: 50px;
+    background: url(../img/thestory/coffee3.jpg) no-repeat 0 0
+}
+.boquete:after{content: ""; display: block;width: 144px;height: 30px; margin: 50px auto; opacity: 0.4;
+    background: url(../img/thestory/icon1.png) no-repeat 0 0
+}
+.boquete>h4{width: 550px; float: left; padding-top: 50px}
+.boquete>div{width: 550px;height: 280px; float: left}
+
+.special{width: 1200px;height: 270px;
+    position: relative;
+    background: url(../img/thestory/coffee4.jpg) no-repeat 0 0;
+    text-align: center
+}
+.special em{position: absolute;right: 220px;top: 35px;
+    font-size: 16px; font-weight: lighter
+}
+.special p{margin: 30px 0 25px}
+
+
+
+

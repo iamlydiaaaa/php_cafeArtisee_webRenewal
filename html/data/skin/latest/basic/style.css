@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.lat_title{margin: 25px 0 30px}
+.lat_title>a{display: block;
+    font-family: 'LotteMartHappy'; font-size: 30px; line-height: 35px}
+/*글제목*/
+.lat li{color: #988a81}
+.lat li:hover a{color: #6a5240; font-weight: bold}
+.lat li>a{font-size: 14px; line-height: 30px;
+    transition: all 0.4s
+}
+
+/*날짜*/
+.lt_info{float: right}
+
+/*더보기*/
+.lt_more{display: block;
+    position: absolute; right: 60px;top: 20px;
+    color: #988a81;
+    transition: all 0.4s
+}
+.lt_more:hover{right: 55px; 
+    color: #6a5240; font-weight: bold
+}
+
+
+.lat li .fa-heart {color:#ff0000}
+.lat li .fa-lock {display:inline-block;line-height:14px;width:16px;font-size:0.833em;color:#4f818c;background:#cbe3e8;text-align:center;border-radius:2px;font-size:12px;border:1px solid #cbe3e8;vertical-align:middle}
+.lat li .new_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#23db79;background:#b9ffda;text-align:center;border-radius:2px;margin-left:2px;font-weight:bold;vertical-align:middle}
+.lat li .hot_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#ff0000;background:#ffb9b9;text-align:center;border-radius:2px;vertical-align:middle}
+.lat li .fa-caret-right {color:#bbb}
+.lat li .fa-download {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#daae37;background:#ffefb9;text-align:center;border-radius:2px;vertical-align:middle}
+.lat li .fa-link {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#b451fd;background:#edd3fd;text-align:center;border-radius:2px;vertical-align:middle}
+
+.lat .empty_li {line-height:145px;color:#666;text-align:center;padding:0}
+.lat .empty_li:before {background:none;padding:0}
+
+.lat .lt_cmt {background:#e9eff5;color:#3a8afd;font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;vertical-align:middle}

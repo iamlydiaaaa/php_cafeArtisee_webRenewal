@@ -1,0 +1,49 @@
+@charset "utf-8";
+#visual{width: 100%; min-width: 1200px; height: 290px;
+    background-repeat: no-repeat; background-position: center center
+}
+#visual>div{width: 1200px; height: 200px; margin: 0 auto; padding-top: 50px;
+    color: #fff; text-align: center
+}
+#visual>div>p:nth-child(1){margin-bottom: 25px;
+    font-size: 60px; font-family: 'Katibeh', cursive
+}
+#visual>div>p:nth-child(1):after{content: ""; display: block; width: 135px;height: 1px; margin: 10px auto 0; opacity: 0.3;
+    background-color: #fff
+}
+#visual>div>p:nth-child(2){opacity: 0.8;
+    font-size: 18px
+}
+/*lnb*/
+.lnb{width: 1200px; height: 70px; margin: 0 auto;
+    position: relative; left: 0;top: -20px;
+    background-color: #fff;
+    box-shadow: 3px 5px 10px 0 rgb(0,0,0,0.1);
+    text-align: center; line-height: 70px;
+}
+.lnb li{display: inline-block; padding: 0 30px;
+    position: relative
+}
+.lnb li+li:before{content: ""; display: block; width: 1px;height: 15px;
+    position: absolute; left: 0;top: 25px;
+    background-color: #ffedee
+}
+.lnb a{font-size: 16px}
+.lnb li:hover a{color: #f39d23}
+.lnb li.on a{color: #f39d23}
+.lnb li.on:before{content: ""; display: block; width: 17px;height: 17px;
+    position: absolute;left: 10px;top: 25px;
+    background: url(../img/sublnb-bg.png) no-repeat 0 0
+}
+
+/*메인페이지*/
+.container{width: 1200px; margin: 70px auto 200px;
+    color: #7d6a5c
+}
+.container p{line-height: 24px}
+.container strong{font-weight: bold; color: #6a5240}
+.sub-tit{margin: 50px 0;
+    position: relative;
+    font-size: 32px; line-height: 40px; text-align: center;color: #6a5240
+}
+.sub-tit>strong{font-family: 'LotteMartHappy'}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+
+#visual{background-image: url(../img/sub_visual-3.jpg)}
+/*메인페이지*/
+
+.sub-tit:before {content: ""; display: inline-block; width: 16px;height: 10px; margin: 0 15px 5px 0;
+    background: url(../img/sub3-icon.png) no-repeat 0 0
+}
